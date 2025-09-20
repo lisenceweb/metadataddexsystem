@@ -613,12 +613,12 @@ const DatabaseManagementSystem = () => {
                 
               </div>
 
-              {/* Additional Mandatory Fields */}
+              {/* Optional */}
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold text-foreground">Additional Mandatory Fields</h3>
                 
                 <div className="space-y-2">
-                  <Label htmlFor="produser_mlc">Produser MLC *</Label>
+                  <Label htmlFor="produser_mlc">Produser MLC</Label>
                   <Input
                     id="produser_mlc"
                     name="produser_mlc"
@@ -629,7 +629,7 @@ const DatabaseManagementSystem = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="original_master_owner">Original Master Owner *</Label>
+                  <Label htmlFor="original_master_owner">Original Master Owner</Label>
                   <Input
                     id="original_master_owner"
                     name="original_master_owner"
@@ -640,7 +640,7 @@ const DatabaseManagementSystem = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="performer_cmo">Performer CMO *</Label>
+                  <Label htmlFor="performer_cmo">Performer CMO</Label>
                   <Input
                     id="performer_cmo"
                     name="performer_cmo"
@@ -651,7 +651,7 @@ const DatabaseManagementSystem = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="publisher">Publisher *</Label>
+                  <Label htmlFor="publisher">Publisher</Label>
                   <Input
                     id="publisher"
                     name="publisher"
@@ -662,7 +662,7 @@ const DatabaseManagementSystem = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="country">Country *</Label>
+                  <Label htmlFor="country">Country</Label>
                   <Input
                     id="country"
                     name="country"
@@ -673,7 +673,7 @@ const DatabaseManagementSystem = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="language">Language *</Label>
+                  <Label htmlFor="language">Language</Label>
                   <Input
                     id="language"
                     name="language"
@@ -684,7 +684,7 @@ const DatabaseManagementSystem = () => {
                 </div>
               </div>
 
-              {/* Optional Fields */}
+              {/* Additional Optional */}
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold text-foreground">Optional Fields</h3>
                 
@@ -816,4 +816,4 @@ const DatabaseManagementSystem = () => {
   );
 };
 
-export default DatabaseManagementSystem;
+export default MetadataDDEXManagementSystem;
